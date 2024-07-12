@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    /* background-color: green; */
+    display: flex;
+    min-height: 5vw;
+    justify-content: space-between;
+    padding-right: 5vw;
+    /* display: inline; */
+}
+.logo_img
+{
+    padding-top: 2vh;
+    padding-left: 3vw;
+    padding-bottom: 1vh;
+    height: 12vh;
+    width: 13vw;
+}
+.navbar
+{
+    display: flex;
+    font-size: 1.75vw;
+    color: red;;
+    /* float: right; */
+    position: relative;
+    top: 5vh;
+    /* justify-content: space-between; */
+    /* left: 55vw; */
+    /* display: inline; */
+}
+
+ul li
+{
+    cursor:pointer ;
+    display: inline;
+    /* float: right; */
+    margin: 1vw;
+}
