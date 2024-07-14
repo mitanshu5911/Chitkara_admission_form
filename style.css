@@ -3,14 +3,17 @@
     margin: 0;
     padding: 0;
 }
+body
+{
+    background-color: red;
+}
 header
 {
-    /* background-color: green; */
+    background-color: white;
     display: flex;
     min-height: 5vw;
     justify-content: space-between;
     padding-right: 5vw;
-    /* display: inline; */
 }
 .logo_img
 {
@@ -24,19 +27,74 @@ header
 {
     display: flex;
     font-size: 1.75vw;
-    color: red;;
-    /* float: right; */
+    color: red;
     position: relative;
     top: 5vh;
-    /* justify-content: space-between; */
-    /* left: 55vw; */
-    /* display: inline; */
+   
 }
 
 ul li
 {
     cursor:pointer ;
     display: inline;
-    /* float: right; */
+  
     margin: 1vw;
+}
+/* ------------------Main------------------- */
+main
+{
+    margin-top: 10vh;
+    margin-left: 10vw;
+    padding-bottom: 1vh;
+    background: white;
+    width: 80vw;
+    height: 100vh;
+    /* border: 2px solid black; */
+    border-radius: 3vh;
+    box-shadow:0px 0px 5vw black;
+}
+h1{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: red;
+    font-size: 2.75vw;
+    font-family:  "Roboto Condensed", sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+p.information
+{
+    padding-top: 2vh;
+    padding-left: 5vw;
+    color:  black;
+    font-size: 4vh;
+    font-weight: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.student .information .name
+{
+    /* background: red; */
+    padding: 2vh;
+    /* font-size: 2em; */
+    font: 1.5em sans-serif;
+}
+input.name_input
+{
+    margin-top: 3vh;
+    text-align: center;
+    border-radius: 0;
+    height: 5vh;
+    width: 18vw;
+    margin-left: 5vw;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    
+}
+.student .information .details
+{
+    display: flex;
 }
