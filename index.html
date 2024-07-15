@@ -22,40 +22,75 @@
     </header>
     <!-- <hr size="2vh" color="red"> -->
     <main>
-        <h1>Admission Form</h1>
+        <h1 class="form">Admission Form</h1>
         <div class="student">
             <div class="information">
                 <p class="information">
                 Student's Information
                 
                 </p >
-                <hr width="100%">
+                <hr width="99.9%">
                 <div class="name">
-                Student name :-
-                <br>
+                <p class="namep">Student name :</p>
+    
                     <div class="name_input">
-                        <input type="text" placeholder="First name" class="name_input">
-                        <input type="text" placeholder="Middle name(optional)" class="name_input">
-                        <input type="text" placeholder="Last name" class="name_input">
+                        <input type="text" placeholder="First name" class="firstname">
+                        <input type="text" placeholder="Middle name(optional)" class="middlename">
+                        <input type="text" placeholder="Last name" class="lastname">
                     </div>
                 </div>
+                <!-- <hr class="line1" align="center"> -->
                 <div class="details">
                     <div class="dob">
                         <p>Date of birth</p>
-                        <input type="date" >
+                        <input type="date" class="dob_input">
                     </div>
                     <div class="gender">
-                        <p>gender</p>
-                        <input type="radio" name="gender">Male
-                        <input type="radio" name="gender">Female
+                        <p class="pgender">Gender</p>
+                        <input type="radio" name="gender" class="male">Male
+                        <input type="radio" name="gender" class="female">Female
 
                     </div>
                     <div class="mobile">
-                        <p>Mobline No.</p>
-                        <input type="number" name="" id="">
+                        <p>Mobile No.</p>
+                        <input type="number" class="mno" placeholder="eg. 9534343535">
                     </div>
                     
                 </div>
+                <div class="detail2">
+                    <div class="email">
+                        <p class="emailp">Email :</p>
+                        <input type="text" class="emaili" placeholder="eg. mitanshuxxxx@chitkara.edu.in">
+                    </div>
+                    <div class="Nationality">
+                        <p class="Nationp">Nationality</p>
+                        <select name="Nationality" id="" class="nations">
+                            <option value="Select">Select---</option>
+                            <option value="India">India</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Europe">Europe
+                            </option>
+                            <option value="Canada">Canada</option>
+                            <option value="tronto">Tronto</option>
+                        </select> 
+                    </div>
+                    <div class="category">
+                        <p class="categoryp">Category</p>
+                        <select name="category" id="" class="categorys">
+                            <option value="Select">Select---</option>
+                            <option value="Genral">General</option>
+                            <option value="gen-ews">Gen-EWS</option>
+                            <option value="OBC">OBC</option>
+                            <option value="Sc">SC</option>
+                            <option value="ST">ST</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Address">
+            <div class="P_address">
+                <p class="P_addressp">Permanent Address</p>
             </div>
         </div>
     </main>
