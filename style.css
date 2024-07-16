@@ -188,7 +188,7 @@ font-size: 3vh;
     /* justify-content: space-between; */
 
 }
-input.male
+/* input.male
 {
     margin-right: 0.5vw;
 }
@@ -196,10 +196,26 @@ input.female
 {
     margin-left: 1vw ;
     margin-right: 0.5vw;
-}
+} */
 p.pgender
 {
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
+}
+select.genders
+{
+    padding-left: 1vw;
+    margin-top: 1vh;
+    text-align: left;
+    border-radius: 0;
+    height: 5vh;
+    width: 20vw;
+    margin-left: 0vw;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+
 }
 .student .information .details .mobile
 {
@@ -216,7 +232,13 @@ input.mno{
     background-color: #fff;
     border: 1px solid #969a9d;
 }
-
+select.code
+{
+    height: 4.5vh;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #969a9d;
+}
 .student .information .detail2
 {
     margin: 2vh;
@@ -264,7 +286,7 @@ input.emaili
 }
 select.categorys
 {
-    padding-left: 0vw;
+    padding-left: 1vw;
     margin-top: 2vh;
     text-align: left;
     border-radius: 0;
@@ -289,7 +311,7 @@ select.categorys
 }
 select.nations
 {
-    padding-left: 0vw;
+    padding-left: 1vw;
     margin-top: 2vh;
     text-align: left;
     border-radius: 0;
@@ -316,3 +338,19 @@ select.nations
     border-radius: 3vh;
     box-shadow:0px 0px 5vw black;
 }
+p.P_addressp
+{
+     /* margin-top: 5vh; */
+     padding-top: 5vh;
+     padding-bottom: 3vh;
+     padding-left: 30vw;
+     color:  black;
+     font-size: 4vh;
+     font-weight: 1000;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+/* .Address .Add1
+{
+
+} */
