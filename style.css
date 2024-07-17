@@ -330,10 +330,10 @@ select.nations
 {
     margin-top: 15vh;
     margin-left: 10vw;
-    padding-bottom: 1vh;
+    padding-bottom: 5vh;
     background: white;
     width: 80vw;
-    height: 100vh;
+    /* height: 100vh; */
     /* border: 2px solid black; */
     border-radius: 3vh;
     box-shadow:0px 0px 5vw black;
@@ -350,7 +350,177 @@ p.P_addressp
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      
 }
-/* .Address .Add1
+.Address .Add1
 {
+/* display: flex;*/
+    font: 1.4em sans-serif;
+    /* padding-top: 3vh; */
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+.Address .Add1 .house
+{
+    text-align: center;
+    width: 26.66vw;
+}
+input.housei
+{
+    padding-left: 1vw;
+    text-align: left;
+    margin-top: 2vh;
 
-} */
+    height: 4.5vh;
+    width: 16vw;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #969a9d;
+}
+.Address .Add1 .street
+{
+    text-align: center;
+    width: 26.66vw;
+}
+input.streeti
+{
+    padding-left: 1vw;
+    text-align: left;
+    margin-top: 2vh;
+    height: 4.5vh;
+    width: 16vw;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #969a9d;
+}
+.Address .Add1 .society
+{
+    text-align: center;
+    width: 26.66vw;
+}
+input.societyi
+{
+    padding-left: 1vw;
+    text-align: left;
+    margin-top: 2vh;
+    height: 4.5vh;
+    width: 16vw;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #969a9d;
+}
+.Address .Add2
+{
+    /* display: flex;*/
+    font: 1.4em sans-serif;
+    /* padding-top: 3vh; */
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+.Address .Add2 .city
+{
+    text-align: center;
+    width: 26.66vw;
+}
+input.cityi
+{
+    padding-left: 1vw;
+    text-align: left;
+    margin-top: 2vh;
+
+    height: 4.5vh;
+    width: 16vw;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #969a9d;
+}
+.Address .Add2 .district
+{
+    text-align: center;
+    width: 26.66vw;
+}
+input.Disti
+{
+    padding-left: 1vw;
+    text-align: left;
+    margin-top: 2vh;
+    height: 4.5vh;
+    width: 16vw;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #969a9d;
+}
+.Address .Add2 .state
+{
+    text-align: center;
+    width: 26.66vw;
+}
+input.statei
+{
+    padding-left: 1vw;
+    text-align: left;
+    margin-top: 2vh;
+    height: 4.5vh;
+    width: 16vw;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #969a9d;
+}
+.Address .Add3
+{
+    /* display: flex;*/
+    font: 1.4em sans-serif;
+    /* padding-top: 3vh; */
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+.Address .Add3 .country
+{
+    text-align: center;
+    width: 26.66vw;
+}
+input.countryi
+{
+    padding-left: 1vw;
+    text-align: left;
+    margin-top: 2vh;
+
+    height: 4.5vh;
+    width: 16vw;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #969a9d;
+}
+.Address .Add3 .pin
+{
+    text-align: center;
+    width: 26.66vw;
+}
+input.pini
+{
+    padding-left: 1vw;
+    text-align: left;
+    margin-top: 2vh;
+    height: 4.5vh;
+    width: 16vw;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #969a9d;
+}
+.Address .Add3 .PO
+{
+    text-align: center;
+    width: 26.66vw;
+}
+input.POi
+{
+    padding-left: 1vw;
+    text-align: left;
+    margin-top: 2vh;
+    height: 4.5vh;
+    width: 16vw;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #969a9d;
+}
